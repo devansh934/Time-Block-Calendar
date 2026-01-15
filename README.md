@@ -50,12 +50,12 @@ Each task appears as a colored block, making it easy to see **what you’re work
 time-block-calendar/
 
 │── index.html
-│── style.css
-│── script.js
-│── README.md
 
-yaml
-Copy code
+│── style.css
+
+│── script.js
+
+│── README.md
 
 ---
 
