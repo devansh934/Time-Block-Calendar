@@ -38,6 +38,12 @@ Each task appears as a colored block, making it easy to see **what you’re work
 
 ---
 
+## 📸 Screenshots
+
+### Desktop View
+![Time-Block Calendar Desktop](<img width="1920" height="1080" alt="Screenshot (325)" src="https://github.com/user-attachments/assets/7bc2ecc8-2f25-4347-8b56-08b48e5ffef4" />)
+
+---
 ## 📂 Project Structure
 
 time-block-calendar/
