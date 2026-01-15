@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Time-block Calendar</title>
+
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <div class="container">
+        <div class="header">
+            <h1>Time-block Calendar</h1>
+            <div class="date-display" id="dateDisplay"></div>
+        </div>
+
+        <div class="controls">
+            <button class="btn btn-primary" id="addEventBtn">+ Add Event</button>
+            <button class="btn btn-secondary" id="todayBtn">Today</button>
+            <button class="btn btn-secondary" id="clearAllBtn">Clear All</button>
+        </div>
+
+        <div class="calendar-container">
+            <div class="time-grid">
+                <div class="time-labels" id="timeLabels"></div>
+                <div class="calendar-body" id="calendarBody">
+                    <div id="currentTimeIndicator" class="current-time-indicator" style="display: none;"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal" id="eventModal">
+        <div class="modal-content">
+            <h3 id="modalTitle">Add New Event</h3>
+            <form id="eventForm">
+                <div class="form-group">
+                    <label>Event Title</label>
+                    <input type="text" id="eventTitle" required />
+                </div>
+
+                <div class="form-group">
+                    <label>Start Time</label>
+                    <input type="time" id="eventStart" required />
+                </div>
+
+                <div class="form-group">
+                    <label>End Time</label>
+                    <input type="time" id="eventEnd" required />
+                </div>
+
+                <div class="form-group">
+                    <label>Color</label>
+                    <select id="eventColor">
+                        <option value="blue">Blue</option>
+                        <option value="green">Green</option>
+                        <option value="purple">Purple</option>
+                        <option value="orange">Orange</option>
+                        <option value="red">Red</option>
+                    </select>
+                </div>
+
+                <div class="modal-actions">
+                    <button type="button" class="btn btn-secondary" id="cancelBtn">Cancel</button>
+                    <button type="submit" class="btn btn-primary" id="saveBtn">Save Event</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
