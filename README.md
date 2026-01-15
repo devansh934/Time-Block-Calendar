@@ -66,10 +66,10 @@ Copy code
 
 1. Clone the repository  
 ```bash
-git clone https://github.com/your-username/time-block-calendar.git
+git clone https://github.com/devansh934/Time-Block-Calendar.git
 
 Open the folder
-cd time-block-calendar
+cd Time-Block-Calendar
 
 Open index.html in your browser.
 
@@ -85,6 +85,8 @@ Dark / Light mode toggle
 
 Drag-and-drop events
 
+
 👤 Author
 Devansh
 GitHub: https://github.com/devansh934
+```
