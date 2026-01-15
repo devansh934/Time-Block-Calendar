@@ -42,7 +42,7 @@ Each task appears as a colored block, making it easy to see **what you’re work
 
 ### Desktop View
 ![Time-Block Calendar Desktop]
-(<img width="1920" height="1080" alt="Screenshot (325)" src="https://github.com/user-attachments/assets/7bc2ecc8-2f25-4347-8b56-08b48e5ffef4" />)
+(<img width="1895" height="947" alt="Screenshot 2026-01-16 020318" src="https://github.com/user-attachments/assets/42609615-55a8-4290-b762-3e29bb3272b7" />)
 
 ---
 ## 📂 Project Structure
