@@ -34,8 +34,6 @@ Each task appears as a colored block, making it easy to see **what you’re work
 
 ## 🌐 Live Demo
 
-👉 **Live App:**  
-
 🔗 **[Time Block Calendar – Live](https://devansh934.github.io/Time-Block-Calendar/)**
 
 ---
